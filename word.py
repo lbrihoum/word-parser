@@ -7,7 +7,7 @@ import PyPDF2
 pdfFileObj = open("example.pdf", 'rb') # rb stands for read, if I wanted to write I would put "wb"
 
 # Creating a pdf reader object
-pdfReader = PtPDF2.PdfFileReader(pdfFileObj)
+pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
 
 # Printing number of pages in pdf file
 print(pdfReader.numPages)
