@@ -1,10 +1,11 @@
 # Word Parser
+# April 10, 2020
 
 # Importing required modules
 import PyPDF2
 
 # Creating a pdf file object
-pdfFileObj = open("example.pdf", 'rb') # rb stands for read, if I wanted to write I would put "wb"
+pdfFileObj = open("thinkpython.pdf", 'rb') # rb stands for read, if I wanted to write I would put "wb"
 
 # Creating a pdf reader object
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
